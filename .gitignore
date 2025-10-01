@@ -1,0 +1,73 @@
+# Build directories and outputs
+build*/
+out*/
+*Debug*/
+*Release*/
+
+# Qt/CMake build artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.moc
+moc_*
+ui_*
+qrc_*
+*.pro.user*
+*.qmlproject.user*
+CMakeCache.txt
+CMakeFiles/
+Makefile*
+*.cmake
+!CMakeLists.txt
+!qds.cmake
+*.autosave
+**/cmake/insight.cmake
+
+# Qt Design Studio generated files
+*/autogen/
+**/Dependencies/*
+
+# IDE and editor files
+.qtc/
+.idea/
+.vscode/
+*.kate-swp
+*.swp
+*.swo
+*~
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Qt specific
+*.qm
+*.prl
+*.app
+*.dmg
+*.exe
+*.msi
+
+# Package managers
+node_modules/
+*.tgz
+*.tar.gz
