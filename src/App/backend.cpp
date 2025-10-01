@@ -90,7 +90,7 @@ void Backend::updateDisplay(const QString &btn)
 		return;
 	}
 
-	QStringList ops = {"÷", "×", "-", "+"};
+    QStringList ops = {"÷", "×", "+", "-"};
 
 	// Calculate the answer
 	if (btn == "=")
